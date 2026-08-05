@@ -1,0 +1,403 @@
+{
+  "items": [
+    {
+      "id": 24,
+      "name": "Formlabs Form 3",
+      "category": "3D Printers",
+      "description": "Resin-based SLA 3D printer for detailed models",
+      "quantity": "2",
+      "location": "Fab Lab",
+      "tags": [
+        "3d-print",
+        "resin",
+        "fabrication"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Ultimaker S5",
+      "category": "3D Printers",
+      "description": "Dual-extrusion FDM 3D printer for prototyping",
+      "quantity": "3",
+      "location": "Fab Lab",
+      "tags": [
+        "3d-print",
+        "fdm",
+        "fabrication"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Focusrite Scarlett 18i20",
+      "category": "Audio Interfaces",
+      "description": "18-in/20-out USB audio interface",
+      "quantity": "5",
+      "location": "Sound Studio",
+      "tags": [
+        "interface",
+        "recording",
+        "studio"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Behringer X32",
+      "category": "Audio Mixers",
+      "description": "32-channel digital mixing console",
+      "quantity": "2",
+      "location": "Sound Studio",
+      "tags": [
+        "mixer",
+        "live-sound",
+        "studio"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "DJI Ronin RS3",
+      "category": "Camera Support",
+      "description": "3-axis handheld gimbal stabiliser",
+      "quantity": "4",
+      "location": "Store Room B - Drawer 3",
+      "tags": [
+        "stabiliser",
+        "video",
+        "support"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Manfrotto Tripod Kit",
+      "category": "Camera Support",
+      "description": "Aluminium tripod with fluid head",
+      "quantity": "10",
+      "location": "Store Room B - Rack",
+      "tags": [
+        "tripod",
+        "support",
+        "video"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Blackmagic Pocket Cinema 6K",
+      "category": "Cameras",
+      "description": "Cinema camera with Super 35 sensor",
+      "quantity": "3",
+      "location": "Store Room B - Cage",
+      "tags": [
+        "cinema",
+        "video",
+        "professional"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Canon EOS R6",
+      "category": "Cameras",
+      "description": "Full-frame mirrorless camera for photo and video",
+      "quantity": "8",
+      "location": "Store Room B - Cage",
+      "tags": [
+        "camera",
+        "video",
+        "photo"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "GoPro Hero 12",
+      "category": "Cameras",
+      "description": "Compact action camera for handheld and mounted shots",
+      "quantity": "10",
+      "location": "Store Room B - Drawer 2",
+      "tags": [
+        "action",
+        "portable",
+        "video"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Sony A7S III",
+      "category": "Cameras",
+      "description": "Low-light mirrorless camera for video production",
+      "quantity": "4",
+      "location": "Store Room B - Cage",
+      "tags": [
+        "camera",
+        "video",
+        "low-light"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Dell Precision Tower",
+      "category": "Computers",
+      "description": "High-performance workstation for 3D rendering",
+      "quantity": "6",
+      "location": "Render Lab",
+      "tags": [
+        "desktop",
+        "pc",
+        "rendering"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "iMac 24-inch M1",
+      "category": "Computers",
+      "description": "All-in-one desktop computer for creative work",
+      "quantity": "12",
+      "location": "Studio 1 - Workstations",
+      "tags": [
+        "desktop",
+        "mac",
+        "editing"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "MacBook Pro 14-inch",
+      "category": "Computers",
+      "description": "Laptop for on-the-go video and audio editing",
+      "quantity": "15",
+      "location": "IT Cage - Shelf 1",
+      "tags": [
+        "laptop",
+        "mac",
+        "editing"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Surface Pro 9",
+      "category": "Computers",
+      "description": "Touchscreen 2-in-1 laptop for sketching and design",
+      "quantity": "8",
+      "location": "IT Cage - Shelf 2",
+      "tags": [
+        "laptop",
+        "pc",
+        "touchscreen"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Novation Launchpad Pro",
+      "category": "Controllers",
+      "description": "Grid controller for music production and live performance",
+      "quantity": "6",
+      "location": "Sound Studio - Drawer 1",
+      "tags": [
+        "midi",
+        "music",
+        "performance"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Glowforge Pro",
+      "category": "Fabrication",
+      "description": "Laser cutter and engraver for wood, acrylic and card",
+      "quantity": "1",
+      "location": "Fab Lab",
+      "tags": [
+        "laser",
+        "cutting",
+        "fabrication"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Adafruit Feather M4",
+      "category": "Microcomputers",
+      "description": "Small development board for wearable and IoT projects",
+      "quantity": "8",
+      "location": "Cabinet B - Bin 5",
+      "tags": [
+        "microcontroller",
+        "wearable"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Arduino Nano 33 IoT",
+      "category": "Microcomputers",
+      "description": "Compact microcontroller with WiFi and Bluetooth",
+      "quantity": "10",
+      "location": "Cabinet B - Bin 4",
+      "tags": [
+        "microcontroller",
+        "wireless"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Arduino Uno R4",
+      "category": "Microcomputers",
+      "description": "Beginner-friendly microcontroller board",
+      "quantity": "25",
+      "location": "Cabinet B - Bin 2",
+      "tags": [
+        "microcontroller",
+        "prototyping"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "BBC micro:bit",
+      "category": "Microcomputers",
+      "description": "Pocket-sized microcontroller for learning physical computing",
+      "quantity": "30",
+      "location": "Cabinet B - Bin 3",
+      "tags": [
+        "microcontroller",
+        "education"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Raspberry Pi 5",
+      "category": "Microcomputers",
+      "description": "8GB single-board computer for physical computing projects",
+      "quantity": "20",
+      "location": "Cabinet B - Bin 1",
+      "tags": [
+        "sbc",
+        "prototyping",
+        "linux"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Rode NT1-A",
+      "category": "Microphones",
+      "description": "Large-diaphragm condenser microphone with shock mount and pop filter",
+      "quantity": "6",
+      "location": "Store Room A - Shelf 2",
+      "tags": [
+        "studio",
+        "vocal",
+        "condenser"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Rode Wireless GO II",
+      "category": "Microphones",
+      "description": "Compact wireless lavalier microphone system",
+      "quantity": "5",
+      "location": "Store Room A - Drawer 3",
+      "tags": [
+        "wireless",
+        "lavalier",
+        "video"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Shure SM58",
+      "category": "Microphones",
+      "description": "Industry-standard dynamic vocal microphone",
+      "quantity": "10",
+      "location": "Store Room A - Shelf 2",
+      "tags": [
+        "live",
+        "vocal",
+        "dynamic"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Zoom H5",
+      "category": "Microphones",
+      "description": "Handheld portable field recorder with interchangeable capsules",
+      "quantity": "4",
+      "location": "Store Room A - Drawer 1",
+      "tags": [
+        "field",
+        "portable",
+        "recorder"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "BenQ 4K Projector",
+      "category": "Projectors",
+      "description": "Short-throw projector for studio presentations and installations",
+      "quantity": "4",
+      "location": "AV Store",
+      "tags": [
+        "projection",
+        "display",
+        "installation"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Epson EB Portable Projector",
+      "category": "Projectors",
+      "description": "Lightweight projector for classroom and pop-up use",
+      "quantity": "6",
+      "location": "AV Store",
+      "tags": [
+        "projection",
+        "portable"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "HTC Vive Pro 2",
+      "category": "VR/AR",
+      "description": "High-resolution tethered VR headset",
+      "quantity": "2",
+      "location": "XR Lab - Cabinet",
+      "tags": [
+        "vr",
+        "tethered",
+        "pcvr"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Meta Quest 3",
+      "category": "VR/AR",
+      "description": "Standalone mixed reality headset",
+      "quantity": "6",
+      "location": "XR Lab - Cabinet",
+      "tags": [
+        "vr",
+        "xr",
+        "standalone"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Valve Index",
+      "category": "VR/AR",
+      "description": "Tethered VR headset with precise controllers",
+      "quantity": "2",
+      "location": "XR Lab - Cabinet",
+      "tags": [
+        "vr",
+        "tethered",
+        "pcvr"
+      ]
+    }
+  ],
+  "categories": [
+    "3D Printers",
+    "Audio Interfaces",
+    "Audio Mixers",
+    "Camera Support",
+    "Cameras",
+    "Computers",
+    "Controllers",
+    "Fabrication",
+    "Microcomputers",
+    "Microphones",
+    "Projectors",
+    "VR/AR"
+  ]
+}

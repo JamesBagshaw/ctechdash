@@ -1,0 +1,242 @@
+:root {
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --border: #e2e5ea;
+  --text: #1a1d23;
+  --text-muted: #62697a;
+  --accent: #2f5fed;
+  --accent-soft: #e8edff;
+  --radius: 10px;
+  --shadow: 0 1px 2px rgba(20, 24, 33, 0.06), 0 1px 1px rgba(20, 24, 33, 0.04);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1116;
+    --surface: #171a21;
+    --border: #2a2e38;
+    --text: #eef0f4;
+    --text-muted: #9aa1b1;
+    --accent: #6d8bff;
+    --accent-soft: #1c2440;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(0, 0, 0, 0.2);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+.page-header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 2.25rem 1.5rem 1.75rem;
+}
+
+.header-inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.page-header h1 {
+  margin: 0 0 0.35rem;
+  font-size: 1.6rem;
+  letter-spacing: -0.01em;
+}
+
+.subtitle {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.page-main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.75rem 1.5rem 3rem;
+}
+
+.controls {
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  padding: 0.5rem 0 1rem;
+  z-index: 5;
+}
+
+.search-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 14px;
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: var(--text-muted);
+  stroke-width: 2;
+  pointer-events: none;
+}
+
+#search-input {
+  width: 100%;
+  padding: 0.85rem 2.5rem 0.85rem 2.75rem;
+  font-size: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: var(--shadow);
+}
+
+#search-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.clear-btn {
+  position: absolute;
+  right: 10px;
+  width: 26px;
+  height: 26px;
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 1.3rem;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.clear-btn:hover {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.category-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.85rem;
+}
+
+.chip {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.12s, color 0.12s, border-color 0.12s;
+  white-space: nowrap;
+}
+
+.chip:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.chip.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+}
+
+.result-count {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin: 0 0 1rem;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.9rem;
+}
+
+.item-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.1rem;
+  box-shadow: var(--shadow);
+}
+
+.item-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.item-name {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.item-category {
+  flex-shrink: 0;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+}
+
+.item-description {
+  margin: 0 0 0.65rem;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+.item-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.9rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.item-meta span strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+mark {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-radius: 3px;
+  padding: 0 1px;
+}
+
+.empty-state {
+  text-align: center;
+  color: var(--text-muted);
+  padding: 3rem 1rem;
+}
+
+.page-footer {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  padding: 1.5rem;
+}
