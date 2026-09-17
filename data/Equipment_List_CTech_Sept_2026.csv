@@ -1,0 +1,49 @@
+﻿Name,Category,Description,Quantity,Location,Tags
+Aputure USB Film Light,Lights,"From filmmaking, battery powered USB lights",2,Lab,Expendable;Light;Portable
+Arduino Plug and Make Kit,Micro-controllers,"Uno R4, Modulino Nodes, Modulino Base, USB-C cable, accessories",6,Lab,Micro-controllers;Sensors;
+Wacom Intuos Graphics Tablet,Graphics,"Pen, USB, Tablet",4,Lab,Interface;graphics;Drawing
+Iiyama ProLite XUB2492QSU Monitor,Displays,"HDMI/DisplayPort Input, 2x USB-A, 1x USB-C",5,Lab,Displays;Monitors
+Kramer HDMI Splitter,Displays,"1x HDMI in, 4x HDMI out, 1x RS-232",2,Lab,Displays;IO
+HP ZR2240W Monitor,Displays,"1x DVI, 1x VGA, 1x HDMI, 1x DP, 2x USB-A",1,Lab,Expendable;Displays;Monitors
+Bosch Power Drill,Tools,In office,1,Office,Tools
+Playtronica PlayTron,MIDI,"MIDI Controller, Crocodile Clips",1,Lab,MIDI;Expendable
+SoundMan Binaural Microphone,Audio,Wearable Binaural Microphone- requires external recording interface,1,Lab,Microphone
+Focusrite Scarlett 2i2,Audio,"2x Mic/Line In, USB-A out, Line L/R out",1,Lab,Expendable;IO
+Focusrite Scarlett Solo,Audio,"1x Mic in, 1x Line in, USB-C out",4,Lab,IO
+AXIS M3126 Dome Camera,Camera,"Turret Camera, Ethernet Out",2,Lab,Camera
+Audio-Technica ATH-M30X Headphone,Audio,"On-Ear Headphone, 1/4 Inch Jack/3.5mm",4,Lab,Audio
+Waveshare 64x64 LED Matrix Display,Displays,"Serial Connector, 5V Adapter, Power Cable, Arduino Adapter",8,Lab,Displays
+Raspberry Pi 5 Kit,Micro-computers,"4GB Ram, 27W USB-C Power Supply",6,Lab,Micro-computers
+XGIMI MoGo 2 Pro Projector,Displays,"USB-C Power, HDMI in, USB in, 3.5mm Headphone Out, Remote",3,Lab,Displays
+Stanley Screwdriver Set,Tools,Assorted Screwdriver Set,2,Lab,Tools
+Yamaha HS5 Powered Studio Monitor,Audio,"XLR/Jack In, Power Lead",4,Lab,Audio
+MiniLab 37 Midi Controller,MIDI,"MIDI Controller, Keyboard, USB-C IO",4,Lab,IO
+MiniLab 3 MIDI Controller,MIDI,"MIDI Controller, Keyboard, USB-C IO",1,Lab,IO
+EPSON ELPDC21 Desktop Camera,Camera,"Remote,  USB-B, HDMI",1,Lab,Camera
+USB-C Power Bank,Power,Multi-Output Power Bank,1,Lab,Expendable;Power
+Portable USB Floppy Disk Drive,Peripheral,Single-Slot USB Floppy Drive,1,Lab,Expendable;Peripheral
+Zoom H5 Handy Recorder,Audio,"Portable Zoom Recorder Device, 2x XLR in, XY Recording Pattern, SD Required, 2x AA Required",2,Lab,Microphone
+SanDisk Xtreme Pro 32GB SDHC Card,Storage,,2,Lab,Storage
+AdaFruit Neopixel 8x8 Pixel Display,Displays,,1,Lab,Displays
+Pi Triple Output Bonnet,Micro-computers,,9,Lab,Micro-computers;Peripherals
+Matrix Portal M4,Micro-computers,Wi-Fi RGB Unit,1,Lab,Micro-computers
+InterState 75,Micro-computers,Wireless Driver + Power for LED Displays,1,Lab,Micro-computers
+AdaFruit Neo Driver,Micro-computers,,1,Lab,Micro-computers
+Pi Portable Monitor,Displays,"HDMI Input, USB Powered",1,Lab,Displays
+Ellegoo Mega Starter Kit,Micro-computers,,1,Lab,Micro-computers
+Zoom H2N Handy Recorder,Audio,,1,Lab,Microphone
+Mobile iPhone Lens Kit,Camera,Multiple Lenses for Attachment to iPhone,1,Lab,Expendable;Camera
+AdaFruit 32x64 Pixel Display,Displays,,2,Lab,Displays
+Arduino R4 Starter Kit,Micro-controllers,"Wi-Fi, Electronic Components Kit, LCD Display, Motor, Breadboard",5,Lab,Micro-controllers
+Arduino R3 Starter Kit,Micro-controllers,"No Wi-Fi, Electronic Components Kit, LCD Display, Motor, Breadboard",1,Lab,Micro-controllers
+USB Keyboard,Peripheral,Assorted Keyboards,4,Lab,Peripherals
+USB Mice,Peripheral,Assorted Mice,2,Lab,Peripherals
+Blackmagic UltraStudio Express Monitor 3G,A/V,,2,Lab,Audio;Displays
+Blackmagic Teranex Mini,A/V,,1,Lab,Audio;Displays
+Weller WE10 Soldering Iron,Tools,,3,COSHH Store,Tools;COSHH
+Tin Copper Wire,Supply,,6,COSHH Store,Supply;COSHH
+Extraction Unit,Tools,,3,Lab,Tools
+Sony PlayStation 4,Consoles,,1,Lab,Consoles
+Sony DualShock 4,Peripheral,Currently Knackered,1,Lab,Peripherals
+HDMI Cable,Cables,,17,Lab,Cables
+HDMI to MicroHDMI Adapter,Cables,,3,Lab,Cables
